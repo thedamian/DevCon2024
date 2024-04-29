@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import { Text, View, TouchableOpacity, SafeAreaView, Image, Button, Modal, StyleSheet } from "react-native";
+import { Text, View, TouchableOpacity, SafeAreaView, Image, Button, Modal, StyleSheet, ScrollView } from "react-native";
 import { Camera, CameraType } from "expo-camera";
 import { Feather, FontAwesome6, AntDesign, MaterialIcons } from "@expo/vector-icons";
 import { uploadPicture } from "./post.js";
@@ -160,20 +160,11 @@ export const styles = StyleSheet.create({
   foodListContainer: {
     position: "relative",
     flex: 1,
-    width: 350,
-    backgroundColor: "white",
+    width: 420,
     paddingVertical: 10,
     paddingHorizontal: 35,
     borderRadius: 20,
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 4,
-    elevation: 5,
-    margin: 20,
+    margin: 10,
   },
   titleList: {
     fontSize: 21,
