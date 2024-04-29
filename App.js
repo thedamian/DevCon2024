@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import { Text, View, TouchableOpacity, SafeAreaView, Image, Button, Modal, StyleSheet, ScrollView } from "react-native";
+import { Text, View, TouchableOpacity, SafeAreaView, Image, Button, Modal, StyleSheet } from "react-native";
 import { Camera, CameraType } from "expo-camera";
 import { Feather, FontAwesome6, AntDesign, MaterialIcons } from "@expo/vector-icons";
 import { uploadPicture } from "./post.js";
