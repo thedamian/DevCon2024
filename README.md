@@ -95,8 +95,8 @@ async def convert_image_to_base64(image: UploadFile):
 
 
 system_prompt = """
-You are an agent specialized in tagging images of food and proving its possible price.
-You will be provided with an image and your goal is to identify what food it is and it's estimated price.
+You are an agent specialized in tagging images of food and providing its possible price.
+You will be provided with an image and your goal is to identify what food it is and its estimated price.
 The price shouldn't be the most updated, just give an estimate from stores like Walmart, Publix, Whole Foods, etc.
 Return the food and the price in the format of a string separated with an equal sign, like this: Oldfashioned Oatmeal=3.99
 If it's not food or you can't identify the price just return 'unknown' for both price and food.
