@@ -16,7 +16,7 @@ export const uploadPicture = async (imageUri) => {
     });
 
     const response = await fetch(
-      "https://d69f6cef-ba25-4337-97e1-3858fe50c704-00-2ece80a591llo.kirk.replit.dev/",
+      "",
       {
         method: "POST",
         headers: {

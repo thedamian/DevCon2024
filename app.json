@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "grammerhub",
-    "slug": "grammerhub",
+    "name": "devcon",
+    "slug": "devcon",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
