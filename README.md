@@ -82,5 +82,4 @@ If there are 2 or more food items in the image, return only one of them.
 ```
 
 ### Documentation:
-
-[platform.openai.com/docs/guides/vision] (https://platform.openai.com/docs/guides/vision)
+https://platform.openai.com/docs/guides/vision
