@@ -1,8 +1,8 @@
-
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from openai import OpenAI
 from dotenv import load_dotenv
 load_dotenv()  # take environment variables from .env.
+import os
 import base64
 
 app = FastAPI()
